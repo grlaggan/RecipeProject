@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dev\\RecipeProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E25EB084-2D6F-43AD-A053-AAC15D5B4F69}|RecipeProject.API\\RecipeProject.API.csproj|d:\\dev\\recipeproject\\recipeproject.api\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25EB084-2D6F-43AD-A053-AAC15D5B4F69}|RecipeProject.API\\RecipeProject.API.csproj|solutionrelative:recipeproject.api\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\queries\\getrecipesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\queries\\getrecipesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\handlers\\getrecipeshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\handlers\\getrecipeshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\handlers\\getproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\handlers\\getproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3846B1E-60D4-47A1-A1DF-AF7710611E46}|RecipeProject.Infrastructure\\RecipeProject.Infrastructure.csproj|d:\\dev\\recipeproject\\recipeproject.infrastructure\\repositories\\recipesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3846B1E-60D4-47A1-A1DF-AF7710611E46}|RecipeProject.Infrastructure\\RecipeProject.Infrastructure.csproj|solutionrelative:recipeproject.infrastructure\\repositories\\recipesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\abstracts\\irecipesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\abstracts\\irecipesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\handlers\\getrecipesbyproductidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\handlers\\getrecipesbyproductidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\modelprofiles\\recipeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\modelprofiles\\recipeprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\modelprofiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\modelprofiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\queries\\getrecipesbyproductidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\queries\\getrecipesbyproductidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\models\\recipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\models\\recipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\models\\getproductsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\models\\getproductsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\queries\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\queries\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\handlers\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\handlers\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25EB084-2D6F-43AD-A053-AAC15D5B4F69}|RecipeProject.API\\RecipeProject.API.csproj|d:\\dev\\recipeproject\\recipeproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25EB084-2D6F-43AD-A053-AAC15D5B4F69}|RecipeProject.API\\RecipeProject.API.csproj|solutionrelative:recipeproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|d:\\dev\\recipeproject\\recipeproject.application\\handlers\\bulkcreateproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B60C2E7-D550-4C6A-9E2C-F2288D86E013}|RecipeProject.Application\\RecipeProject.Application.csproj|solutionrelative:recipeproject.application\\handlers\\bulkcreateproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetRecipesHandler.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\GetRecipesHandler.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Handlers\\GetRecipesHandler.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\GetRecipesHandler.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Handlers\\GetRecipesHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T08:31:55.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetRecipesQuery.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Queries\\GetRecipesQuery.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Queries\\GetRecipesQuery.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Queries\\GetRecipesQuery.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Queries\\GetRecipesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T08:31:16.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.API\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "RecipeProject.API\\Controllers\\RecipesController.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.API\\Controllers\\RecipesController.cs",
+              "RelativeToolTip": "RecipeProject.API\\Controllers\\RecipesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:47:41.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\ModelProfiles\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\ModelProfiles\\ProductProfile.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\ModelProfiles\\ProductProfile.cs",
+              "RelativeToolTip": "RecipeProject.Application\\ModelProfiles\\ProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:41:51.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RecipeProfile.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\ModelProfiles\\RecipeProfile.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\ModelProfiles\\RecipeProfile.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\ModelProfiles\\RecipeProfile.cs",
+              "RelativeToolTip": "RecipeProject.Application\\ModelProfiles\\RecipeProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:41:54.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecipesRepository.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Infrastructure\\Repositories\\RecipesRepository.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Infrastructure\\Repositories\\RecipesRepository.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Infrastructure\\Repositories\\RecipesRepository.cs",
+              "RelativeToolTip": "RecipeProject.Infrastructure\\Repositories\\RecipesRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:30:17.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RecipeDto.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Models\\RecipeDto.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Models\\RecipeDto.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Models\\RecipeDto.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Models\\RecipeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:28:56.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRecipesRepository.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Abstracts\\IRecipesRepository.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Abstracts\\IRecipesRepository.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Abstracts\\IRecipesRepository.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Abstracts\\IRecipesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:28:12.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetProductsHandler.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\GetProductsHandler.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Handlers\\GetProductsHandler.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\GetProductsHandler.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Handlers\\GetProductsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:27:42.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetRecipesByProductIdHandler.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\GetRecipesByProductIdHandler.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Handlers\\GetRecipesByProductIdHandler.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\GetRecipesByProductIdHandler.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Handlers\\GetRecipesByProductIdHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:25:52.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetRecipesByProductIdQuery.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Queries\\GetRecipesByProductIdQuery.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Queries\\GetRecipesByProductIdQuery.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Queries\\GetRecipesByProductIdQuery.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Queries\\GetRecipesByProductIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:21:38.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetProductsResponse.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Models\\GetProductsResponse.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Models\\GetProductsResponse.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Models\\GetProductsResponse.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Models\\GetProductsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:22:47.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetProductsQuery.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Queries\\GetProductsQuery.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Queries\\GetProductsQuery.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Queries\\GetProductsQuery.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Queries\\GetProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:21:54.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateProductHandler.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\CreateProductHandler.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Handlers\\CreateProductHandler.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\CreateProductHandler.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Handlers\\CreateProductHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:21:52.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BulkCreateProductsHandler.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\BulkCreateProductsHandler.cs",
+              "RelativeDocumentMoniker": "RecipeProject.Application\\Handlers\\BulkCreateProductsHandler.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.Application\\Handlers\\BulkCreateProductsHandler.cs",
+              "RelativeToolTip": "RecipeProject.Application\\Handlers\\BulkCreateProductsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:17:37.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dev\\RecipeProject\\RecipeProject.API\\Program.cs",
+              "RelativeDocumentMoniker": "RecipeProject.API\\Program.cs",
+              "ToolTip": "D:\\dev\\RecipeProject\\RecipeProject.API\\Program.cs",
+              "RelativeToolTip": "RecipeProject.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T07:15:55.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
