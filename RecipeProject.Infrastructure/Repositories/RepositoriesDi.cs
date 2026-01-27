@@ -11,6 +11,7 @@ public static class RepositoriesDi
         {
             services.AddScoped<IProductsRepository, ProductsRepository>();
             services.AddScoped<IRecipesRepository, RecipesRepository>();
+            services.AddScoped<IUsersRepository, UsersRepository>();
             
             return services;
         }

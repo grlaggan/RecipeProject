@@ -1,6 +1,9 @@
+using System.Security.Cryptography;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RecipeProject.API.Models;
+using RecipeProject.Application.Authentication;
 using RecipeProject.Application.Commands;
 using RecipeProject.Application.Models;
 using RecipeProject.Application.Queries;
@@ -12,6 +15,7 @@ namespace RecipeProject.API.Controllers;
 public class ProductsController(IMediator mediator) : ControllerBase
 {
     [HttpPost]
+    [Authorize(Policies.Create)]
     public async Task<ActionResult<Guid>> Create([FromBody] CreateProductDto request)
     {
         var creationResult = await mediator.Send(new CreateProductCommand(
@@ -31,6 +35,7 @@ public class ProductsController(IMediator mediator) : ControllerBase
     }
 
     [HttpGet]
+    [Authorize(Policies.Read)]
     public async Task<ActionResult<GetProductsResponse>> GetAll()
     {
         var result = await mediator.Send(new GetProductsQuery());
@@ -46,6 +51,7 @@ public class ProductsController(IMediator mediator) : ControllerBase
     }
 
     [HttpPost("/bulk")]
+    [Authorize(Policies.Create)]
     public async Task<ActionResult<int>> CreateBulk([FromBody] BulkCreateProductsRequest request)
     {
         var result = await mediator.Send(new BulkCreateProductsCommand(
@@ -63,6 +69,7 @@ public class ProductsController(IMediator mediator) : ControllerBase
     }
 
     [HttpDelete("/{id:guid}")]
+    [Authorize]
     public async Task<IActionResult> Delete([FromRoute] Guid id)
     {
         var result = await mediator.Send(new DeleteProductCommand(id));

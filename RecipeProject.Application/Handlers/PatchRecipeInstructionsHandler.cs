@@ -9,8 +9,13 @@ public class PatchRecipeInstructionsHandler(IRecipesRepository repository)
     : IRequestHandler<PatchRecipeInstructionCommand, Result>
 {
 
-    public Task<Result> Handle(PatchRecipeInstructionCommand request, CancellationToken cancellationToken)
+    public async Task<Result> Handle(PatchRecipeInstructionCommand request, CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        var result = await repository.PatchInstructions(request.Id, request.Instructions, cancellationToken);
+
+        if (result.IsFailed)
+            return Result.Fail(result.Errors[0]);
+
+        return Result.Ok();
     }
 }
