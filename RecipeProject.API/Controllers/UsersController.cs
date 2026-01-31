@@ -10,7 +10,7 @@ namespace RecipeProject.API.Controllers;
 public class UsersController(IMediator mediator) : ControllerBase
 {
 
-    [HttpPost("/register")]
+    [HttpPost("register")]
     public async Task<ActionResult<Guid>> Register([FromBody] RegisterRequest request)
     {
         var result = await mediator.Send(new RegisterUserCommand(
@@ -30,7 +30,7 @@ public class UsersController(IMediator mediator) : ControllerBase
         return Ok(result.Value);
     }
 
-    [HttpPost("/login")]
+    [HttpPost("login")]
     public async Task<ActionResult<LoginResponse>> Login([FromBody] LoginRequest request)
     {
         var result = await mediator.Send(new LoginUserCommand(

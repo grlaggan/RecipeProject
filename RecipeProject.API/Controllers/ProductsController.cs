@@ -11,7 +11,7 @@ using RecipeProject.Application.Queries;
 namespace RecipeProject.API.Controllers;
 
 [ApiController]
-[Route("api/products")]
+[Route("/api/products")]
 public class ProductsController(IMediator mediator) : ControllerBase
 {
     [HttpPost]
@@ -50,7 +50,7 @@ public class ProductsController(IMediator mediator) : ControllerBase
         return Ok(new GetProductsResponse("Products retrieved successfully", result.Value));
     }
 
-    [HttpPost("/bulk")]
+    [HttpPost("bulk")]
     [Authorize(Policies.Create)]
     public async Task<ActionResult<int>> CreateBulk([FromBody] BulkCreateProductsRequest request)
     {
@@ -68,7 +68,7 @@ public class ProductsController(IMediator mediator) : ControllerBase
         return Ok(result.Value);
     }
 
-    [HttpDelete("/{id:guid}")]
+    [HttpDelete("{id:guid}")]
     [Authorize]
     public async Task<IActionResult> Delete([FromRoute] Guid id)
     {

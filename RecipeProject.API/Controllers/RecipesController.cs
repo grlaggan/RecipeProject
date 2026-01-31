@@ -62,7 +62,7 @@ public class RecipesController(IMediator mediator) : ControllerBase
         return Ok(result.Value);
     }
 
-    [HttpPatch("/name/{id:guid}")]
+    [HttpPatch("name/{id:guid}")]
     public async Task<IActionResult> PatchName([FromRoute] Guid id, [FromBody] PatchRecipeNameRequest request)
     {
         var result = await mediator.Send(new PatchRecipeNameCommand(id, request.Name));
@@ -77,7 +77,7 @@ public class RecipesController(IMediator mediator) : ControllerBase
         return Ok();
     }
 
-    [HttpPost("/description/{id:guid}")]
+    [HttpPost("description/{id:guid}")]
     public async Task<IActionResult> PatchDescription([FromRoute] Guid id,
         [FromBody] PatchRecipeDescriptionRequest request)
     {
@@ -93,7 +93,7 @@ public class RecipesController(IMediator mediator) : ControllerBase
         return Ok();
     }
     
-    [HttpPost("/instructions/{id:guid}")]
+    [HttpPost("instructions/{id:guid}")]
         public async Task<IActionResult> PatchInstructions([FromRoute] Guid id,
             [FromBody] PatchRecipeInstructionsRequest request)
         {
